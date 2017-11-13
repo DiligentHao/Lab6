@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="261.0" prefWidth="315.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   <children>
+      <AnchorPane layoutY="-27.0" prefHeight="442.0" prefWidth="515.0">
+         <children>
+            <Button fx:id="showGraph" layoutX="200.0" layoutY="95.0" mnemonicParsing="false" onAction="#showGraph" prefHeight="36.0" prefWidth="115.0" text="展示有向图" visible="false" />
+            <Button fx:id="searchBridge" layoutX="200.0" layoutY="150.0" mnemonicParsing="false" onAction="#searchBridge" prefHeight="36.0" prefWidth="115.0" text="查询桥接词" visible="false" />
+            <Button fx:id="newText" layoutX="200.0" layoutY="203.0" mnemonicParsing="false" onAction="#newText" prefHeight="36.0" prefWidth="115.0" text="生成新文本" visible="false" />
+            <Button fx:id="shorestPath" layoutX="200.0" layoutY="257.0" mnemonicParsing="false" onAction="#shortestPath" prefHeight="36.0" prefWidth="115.0" text="最短路径" visible="false" />
+            <Button fx:id="randWalk" layoutX="200.0" layoutY="314.0" mnemonicParsing="false" onAction="#randWalk" prefHeight="36.0" prefWidth="115.0" text="随机游走" visible="false" />
+            <MenuBar layoutY="27.0" prefHeight="38.0" prefWidth="515.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="文件">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#openFiles" text="打开文件" />
+                        <MenuItem mnemonicParsing="false" onAction="#exit" text="退出" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="帮助">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="\@开发者声明" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

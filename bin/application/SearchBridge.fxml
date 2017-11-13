@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="303.0" prefWidth="334.0">
+         <children>
+            <Button layoutX="137.0" layoutY="222.0" mnemonicParsing="false" onAction="#search" text="查询" />
+            <TextField fx:id="bridgeWord1" layoutX="131.0" layoutY="27.0" prefHeight="36.0" prefWidth="108.0" />
+            <TextField fx:id="bridgeWord2" layoutX="131.0" layoutY="87.0" prefHeight="36.0" prefWidth="108.0" />
+            <TextField fx:id="bridgeOut" editable="false" layoutX="131.0" layoutY="141.0" prefHeight="36.0" prefWidth="181.0" />
+            <Label layoutX="32.0" layoutY="27.0" prefHeight="36.0" prefWidth="66.0" text="Word1:" />
+            <Label layoutX="29.0" layoutY="87.0" prefHeight="36.0" prefWidth="66.0" text="Word2:" />
+            <Label layoutX="-2.0" layoutY="141.0" prefHeight="36.0" prefWidth="122.0" text="BridgeWords" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

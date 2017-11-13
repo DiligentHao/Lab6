@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="339.0" prefWidth="381.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   <children>
+      <TextArea fx:id="inText" layoutX="124.0" layoutY="34.0" prefHeight="79.0" prefWidth="231.0" />
+      <TextArea fx:id="outText" editable="false" layoutX="163.0" layoutY="161.0" prefHeight="87.0" prefWidth="192.0" />
+      <Label layoutX="14.0" layoutY="34.0" prefHeight="79.0" prefWidth="98.0" text="输入的文本" />
+      <Label layoutX="6.0" layoutY="161.0" prefHeight="79.0" prefWidth="146.0" text="加入桥接词的文本" />
+      <Button layoutX="122.0" layoutY="272.0" mnemonicParsing="false" onAction="#change" text="Change" />
+   </children>
+</AnchorPane>
